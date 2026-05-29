@@ -8,7 +8,7 @@
       content="Studentxll personal homepage. A concise academic portfolio template for research, projects, publications, and contact information."
     />
     <meta name="theme-color" content="#f7f4ee" />
-    <title>Jiaye Li | Personal Homepage</title>
+    <title>李佳烨 | Personal Homepage</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,7 +19,7 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Back to top">李佳烨</a>
+      <a class="brand" href="#top" aria-label="Back to top">Jiaye Li</a>
       <nav class="nav" aria-label="Primary navigation">
         <a href="#about">About</a>
         <a href="#research">Research</a>
@@ -57,7 +57,7 @@
             class="profile-image"
           />
           <div class="profile-meta">
-            <p class="profile-name">Studentxll</p>
+            <p class="profile-name">Jiaye Li</p>
             <p>Computer Vision / Generative AI / Post Training</p>
             <p>Fudan University</p>
           </div>
@@ -103,51 +103,116 @@
             <p class="eyebrow">Selected Work</p>
             <h2>Projects &amp; Publications</h2>
           </div>
-          <!-- <p class="section-note">
-            Add papers, demos, project pages, and GitHub links here.
-          </p> -->
         </div>
 
         <div class="project-list">
           <article class="project-card">
             <div class="project-media">
-              <span>Project Preview</span>
+              <span>First Author</span>
             </div>
             <div class="project-body">
-              <p class="tag">Template</p>
-              <h3>Project or Paper Title</h3>
+              <p class="tag">Image Generation / CVPR 2026</p>
+              <h3>Head-wise Adaptive Rotary Positional Encoding for Fine-Grained Image Generation</h3>
               <p class="authors">
-                <strong>Studentxll</strong>, Collaborator A, Collaborator B
+                <strong>Jiaye Li</strong>*, Baoyou Chen*, Hui Li, Zilong Dong, Jingdong Wang, Siyu Zhu
               </p>
               <p>
-                Briefly describe the problem, core method, and result. Keep this
-                section short enough for visitors to scan quickly.
+                HARoPE introduces a head-wise adaptive extension of RoPE for
+                transformer-based image generation, improving fine-grained spatial
+                relations, color fidelity, and object counting in class-conditional
+                and text-to-image settings.
               </p>
               <div class="links">
-                <a href="#" aria-label="Paper link placeholder">Paper</a>
-                <a href="#" aria-label="Code link placeholder">Code</a>
-                <a href="#" aria-label="Project page link placeholder">Project</a>
+                <a href="files/papers/harope.pdf" target="_blank" rel="noopener">Paper</a>
+                <a href="https://github.com/Studentxll/HARoPE" target="_blank" rel="noopener">Code</a>
               </div>
             </div>
           </article>
 
           <article class="project-card">
             <div class="project-media accent">
-              <span>Demo Preview</span>
+              <span>First Author</span>
             </div>
             <div class="project-body">
-              <p class="tag">Research</p>
-              <h3>Another Research Direction</h3>
+              <p class="tag">Avatar Generation / 2026</p>
+              <h3>Hallo-Live: Real-Time Streaming Joint Audio-Video Avatar Generation</h3>
               <p class="authors">
-                <strong>Studentxll</strong>, Research Group
+                Chunyu Li*, <strong>Jiaye Li</strong>*, Ruiqiao Mei, Haoyuan Xia, Hao Zhu, Jingdong Wang, Siyu Zhu
               </p>
               <p>
-                Use this card for a second selected project, an ongoing work, or
-                a compact summary of a larger research theme.
+                Hallo-Live is a real-time text-driven audio-video avatar generation
+                framework that combines asynchronous dual-stream diffusion with
+                human-centric preference-guided distillation for low-latency,
+                synchronized portrait video and speech synthesis.
               </p>
               <div class="links">
-                <a href="#" aria-label="Preprint link placeholder">Preprint</a>
-                <a href="#" aria-label="Repository link placeholder">Repository</a>
+                <a href="files/papers/hallo-live.pdf" target="_blank" rel="noopener">Paper</a>
+                <a href="https://github.com/fudan-generative-vision/Hallo-Live" target="_blank" rel="noopener">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media">
+              <span>Co-Author</span>
+            </div>
+            <div class="project-body">
+              <p class="tag">Human Video / CVPR 2025</p>
+              <h3>OpenHumanVid: A Large-Scale High-Quality Dataset for Enhancing Human-Centric Video Generation</h3>
+              <p class="authors">
+                Hui Li*, Mingwang Xu*, Yun Zhan, Shan Mu, <strong>Jiaye Li</strong>, Kaihui Cheng, Yuxuan Chen, Tan Chen, Mao Ye, Jingdong Wang, Siyu Zhu
+              </p>
+              <p>
+                OpenHumanVid provides a large-scale, high-quality human-centric
+                video dataset with detailed captions, skeleton sequences, and speech
+                audio to improve human video generation and motion alignment.
+              </p>
+              <div class="links">
+                <a href="files/papers/openhumanvid.pdf" target="_blank" rel="noopener">Paper</a>
+                <a href="https://fudan-generative-vision.github.io/OpenHumanVid" target="_blank" rel="noopener">Project</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media accent">
+              <span>Co-Author</span>
+            </div>
+            <div class="project-body">
+              <p class="tag">Visual Generation / ICLR 2026</p>
+              <h3>Pyramidal Patchification Flow for Visual Generation</h3>
+              <p class="authors">
+                Hui Li, Baoyou Chen, Liwei Zhang, <strong>Jiaye Li</strong>, Jingdong Wang, Siyu Zhu
+              </p>
+              <p>
+                PPFlow accelerates diffusion and flow-based visual generation by
+                reducing token counts at high-noise timesteps through pyramidal
+                patchification, while preserving generation quality.
+              </p>
+              <div class="links">
+                <a href="files/papers/ppflow.pdf" target="_blank" rel="noopener">Paper</a>
+                <a href="https://github.com/fudan-generative-vision/PPFlow" target="_blank" rel="noopener">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media">
+              <span>Co-Author</span>
+            </div>
+            <div class="project-body">
+              <p class="tag">Vision-Language / CVPR 2025</p>
+              <h3>Retaining Knowledge and Enhancing Long-Text Representations in CLIP through Dual-Teacher Distillation</h3>
+              <p class="authors">
+                Yuheng Feng*, Changsong Wen*, Zelin Peng, <strong>Jiaye Li</strong>, Siyu Zhu
+              </p>
+              <p>
+                LongD-CLIP uses dual-teacher distillation to improve CLIP's
+                long-text representation ability while retaining foundational
+                short-text and zero-shot classification knowledge.
+              </p>
+              <div class="links">
+                <a href="files/papers/longd-clip.pdf" target="_blank" rel="noopener">Paper</a>
               </div>
             </div>
           </article>
